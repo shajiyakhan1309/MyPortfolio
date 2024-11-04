@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Shajiya</a>
+        <nav id="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="Education.html">Education</a>
+            <a href="Experience.html">Experience</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fa fa-bars"></i></div>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="MyPhoto.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, it's <span>Shajiya</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p style="margin-top: 50px;">I am a passionate Information Technology student at AVM Karmaveer Bhaurao Patil College, specializing in application development, web technologies, and software engineering. With a strong foundation in Java, Python, HTML, CSS, and JavaScript, I have developed several projects, including a weather website, a collaborative QR code app, and Dreamweaver, a website clone. My expertise also extends to areas like cloud computing, AI/ML, ERP systems, and chatbot development, which I gained during my certification courses. I am constantly expanding my knowledge, currently focusing on Python programming and IoT-based projects, while striving to create innovative solutions for accessibility and sensory assistance.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shajiya-khan-70395a298"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/shajiyakhan1309"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Contact.html" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navbar').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
