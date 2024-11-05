@@ -1,22 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     border: #ffff;
-    font-family: 'Times New Roman','sans-serif';
-}
-body{
-    background-color: black;
-    color:#91a7df;
+    font-family: 'Times New Roman', 'sans-serif';
 }
 
-header{
-    margin-top: 20px;
-    width:100%;
-    padding:1rem 9%;
+body {
+    background-color: black;
+    color: #91a7df;
 }
+
+header {
+    margin-top: 20px;
+    width: 100%;
+    padding: 1rem 9%;
+}
+
 hr {
     width: 90%;
     border-top: 1px solid #91a7df;
@@ -24,23 +26,58 @@ hr {
     margin-right: 0; 
 }
 
-main{
+main {
     color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 0 10px; 
 }
 
-table{
+table {
     border-collapse: collapse;
-    margin-top: 20px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin: 20px auto; 
+    width: 100%; 
+    max-width: 600px; 
 }
-th,td{
-    border:2px solid white;
-    padding:10px;
+
+th, td {
+    border: 2px solid white;
+    padding: 10px;
     text-align: center;
 }
 
-th{
-    background-color:#91a7df;
+th {
+    background-color: #91a7df;
     color: black;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 5%;
+    }
+
+    table {
+        font-size: 0.9rem; 
+    }
+
+    th, td {
+        padding: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem 3%;
+    }
+
+    table {
+        font-size: 0.8rem; 
+    }
+
+    th, td {
+        padding: 6px; 
+    }
 }
