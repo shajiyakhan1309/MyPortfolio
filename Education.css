@@ -29,9 +29,10 @@ main{
 }
 
 table{
-    width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 th,td{
     border:2px solid white;
