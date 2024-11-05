@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     border: #ffff;
-    font-family: 'Times New Roman','sans-serif';
-}
-body{
-    background-color: black;
-    color:#91a7df;
+    font-family: 'Times New Roman', 'sans-serif';
 }
 
-header{
+body {
+    background-color: black;
+    color: #91a7df;
+}
+
+header {
     margin-top: 20px;
-    width:100%;
-    padding:1rem 9%;
+    width: 100%;
+    padding: 1rem 9%;
 }
 
 hr {
@@ -25,29 +26,50 @@ hr {
     margin-right: 0; 
 }
 
-.type{
+.type {
     color: #91a7df;
 }
 
-.project{
+.project {
     color: #f5bf9a;
 }
-main{
+
+main {
     color: white;
     margin-left: 5em;
     margin-right: 5em;
 }
 
-ul{
-    margin-left: 20px;
-    color: white;
-}
-ol{
+ul {
     margin-left: 20px;
     color: white;
 }
 
-li{
+ol {
+    margin-left: 20px;
+    color: white;
+}
+
+li {
     margin-bottom: 10px;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 5%;
+    }
+
+    main {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    ol, ul {
+        margin-left: 10px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+}
