@@ -54,7 +54,7 @@ li {
     margin-bottom: 10px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     header {
         padding: 1rem 5%;
@@ -71,5 +71,28 @@ li {
 
     li {
         margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 20px) {
+    body {
+        font-size: 0.5rem; 
+    }
+
+    header {
+        padding: 0.5rem 1%;
+    }
+
+    main {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    ol, ul {
+        margin-left: 5px;
+    }
+
+    li {
+        margin-bottom: 5px;
     }
 }
